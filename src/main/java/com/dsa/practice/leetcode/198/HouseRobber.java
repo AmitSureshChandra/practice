@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/house-robber/
 
-class Solution {
+class HouseRobber {
     public int rob(int[] nums) {
         // f(n) = max(f(n-1),  f(n-2) + a[n]);
         
