@@ -38,8 +38,8 @@ class ClimbingStairs {
         
         // recursion 
         
-        if(dp[n-1] == null) dp[n-1] = solve(n-1, dp);
-        if(dp[n-2] == null) dp[n-2] = solve(n-2, dp);
+        if(dp[n-1] == null) dp[n-1] = solveRecursive(n-1, dp);
+        if(dp[n-2] == null) dp[n-2] = solveRecursive(n-2, dp);
         dp[n] = dp[n-1] + dp[n-2];
         return dp[n];
     }
