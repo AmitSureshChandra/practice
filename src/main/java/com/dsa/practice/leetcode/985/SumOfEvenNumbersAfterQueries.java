@@ -24,7 +24,7 @@ class SumOfEvenNumbersAfterQueries {
           
             // updating based on query
                                 
-            nums[q[1]] = nums[q[1]] + q[0];
+            nums[q[1]] += q[0];
             
             // adding in sum if even 
             if(isEven(nums[q[1]])){
@@ -37,7 +37,7 @@ class SumOfEvenNumbersAfterQueries {
         return ans;
         
     }
-    r
+    
     boolean isEven(int i){
         return (i & 1) == 0;
     }
