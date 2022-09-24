@@ -19,7 +19,7 @@ class PathSum2 {
             ans.add(new ArrayList<>(l));
         }
         
-        // go to left * right child & check
+        // go to left & right child & check
         else{
             solve(n.left, s + n.val, t,ans, l);
             solve(n.right, s + n.val, t,ans, l);
