@@ -1,11 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
 
-class Temp{
-    public Node n;
-    public int d;
-    public Temp(Node node, int di) { n = node; d = di;}
-}
-
 class Solution
 {
 	ArrayList <Integer> boundary(Node node)
